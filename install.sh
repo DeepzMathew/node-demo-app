@@ -3,8 +3,9 @@
 cd /root
 
 apt-get install -y npm
+sleep 10
 git-buildpackage --git-ignore-new --git-ignore-branch
-sleep 30
+sleep 20
 cp ../*.deb .
 
 
